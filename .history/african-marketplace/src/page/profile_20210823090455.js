@@ -6,7 +6,7 @@ export default function ProfilePage(props) {
     <div>
       <h2>Profile Page</h2>
 
-      <Form_Profile />
+      <Form_Profile>
     </div>
   );
 }

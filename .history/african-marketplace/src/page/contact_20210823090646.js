@@ -7,7 +7,8 @@ export default function ContactPage(props) {
     <div>
       <h2>Contact Page</h2>
 
-      <Form_Contact_Us />
+        <Form
+
     </div>
   );
 }
