@@ -4,9 +4,7 @@ import NavigationBar from "./component/navigation-bar";
 import Page404 from "./component/404";
 import Footer from "./component/footer";
 import AboutPage from "./page/about";
-import ProductPage from "./page/product";
-import ProfilePage from "./page/profile";
-import ContactPage from "./page/contact";
+import Product from "./page/product";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -22,17 +20,13 @@ function App() {
               <HomePage />
             </Route>
             <Route path="/product">
-              <ProductPage />
+              <Product />{" "}
             </Route>
-            <Route path="/profile">
-              <ProfilePage />
-            </Route>
+            <Route path="/profile"> </Route>
             <Route path="/About">
               <AboutPage />
             </Route>
-            <Route path="/Contact">
-              <ContactPage />
-            </Route>
+            <Route path="/Contact"> </Route>
 
             <Route>
               <Page404 />

@@ -30,9 +30,7 @@ function App() {
             <Route path="/About">
               <AboutPage />
             </Route>
-            <Route path="/Contact">
-              <ContactPage />
-            </Route>
+            <Route path="/Contact"> </Route>
 
             <Route>
               <Page404 />

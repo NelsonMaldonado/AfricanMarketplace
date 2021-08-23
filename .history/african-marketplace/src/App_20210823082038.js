@@ -31,7 +31,7 @@ function App() {
               <AboutPage />
             </Route>
             <Route path="/Contact">
-              <ContactPage />
+              <ContactPage />{" "}
             </Route>
 
             <Route>

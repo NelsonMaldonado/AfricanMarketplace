@@ -31,8 +31,7 @@ function App() {
               <AboutPage />
             </Route>
             <Route path="/Contact">
-              <ContactPage />
-            </Route>
+              <Con </Route>
 
             <Route>
               <Page404 />

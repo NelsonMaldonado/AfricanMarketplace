@@ -6,7 +6,6 @@ import Footer from "./component/footer";
 import AboutPage from "./page/about";
 import ProductPage from "./page/product";
 import ProfilePage from "./page/profile";
-import ContactPage from "./page/contact";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -25,14 +24,12 @@ function App() {
               <ProductPage />
             </Route>
             <Route path="/profile">
-              <ProfilePage />
+              <ProfilePage />{" "}
             </Route>
             <Route path="/About">
               <AboutPage />
             </Route>
-            <Route path="/Contact">
-              <ContactPage />
-            </Route>
+            <Route path="/Contact"> </Route>
 
             <Route>
               <Page404 />
