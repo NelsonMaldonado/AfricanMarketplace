@@ -6,8 +6,7 @@ export default function ProductPage(props) {
     <div>
       <h2>Product Page</h2>
 
-      <Form_Add_Item />
-      <br />
+        <Form_Add_Item></Form_Add_Item>
 
       <Form_Listing_Item />
     </div>

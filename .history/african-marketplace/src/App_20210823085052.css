@@ -37,19 +37,17 @@ footer{
 }
 
 main{
-  height:80vh;
+  height:90vh;
 }
 
 .flex-column{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .flex-row{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: :flex;
+  flex
 }
 
 @keyframes App-logo-spin {

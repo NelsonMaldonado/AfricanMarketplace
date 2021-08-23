@@ -49,7 +49,6 @@ main{
 .flex-row{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 @keyframes App-logo-spin {

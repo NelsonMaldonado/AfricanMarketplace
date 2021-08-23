@@ -11,7 +11,7 @@ export default function HomePage(props) {
       </div>
 
       <div>
-        <Form_Login />
+        <Form_Login>
       </div>
     </div>
   );

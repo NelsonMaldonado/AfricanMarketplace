@@ -1,0 +1,1 @@
+import Reactf = require("react");

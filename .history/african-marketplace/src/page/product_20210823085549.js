@@ -7,7 +7,6 @@ export default function ProductPage(props) {
       <h2>Product Page</h2>
 
       <Form_Add_Item />
-      <br />
 
       <Form_Listing_Item />
     </div>

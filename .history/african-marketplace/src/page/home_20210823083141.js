@@ -10,9 +10,7 @@ export default function HomePage(props) {
         <p>Some home page stuff</p>
       </div>
 
-      <div>
-        <Form_Login />
-      </div>
+      <
     </div>
   );
 }
