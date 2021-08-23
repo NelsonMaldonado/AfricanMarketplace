@@ -5,9 +5,10 @@ export default function NavigationBar(props) {
   return (
     <Navbar>
       <Container>
-        <Navbar.Brand href="/">African Marketplace</Navbar.Brand>
-        <Nav.Link href="/product">Product</Nav.Link>
-        <Nav.Link href="/profile">Profile</Nav.Link>
+        <Navbar.Brand href="#">African Marketplace</Navbar.Brand>
+        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/p">Product</Nav.Link>
+        <Nav.Link href="#">Profile</Nav.Link>
       </Container>
     </Navbar>
   );

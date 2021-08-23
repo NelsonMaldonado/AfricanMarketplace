@@ -6,7 +6,7 @@ export default function Footer(props) {
     <div>
       <Navbar>
         <Container>
-          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="#">Home</Nav.Link>
           <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/contact">Contact US</Nav.Link>
         </Container>
